@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My form</title>
+</head>
+<body>
+	<style>
+	body{
+		background-color: #ececec;
+		margin: auto;
+		}
+	form{
+		background-color:#D5ACD9;
+		margin:100px 600px 100px 600px;
+		border:3px solid gray;
+		border-radius:10px;
+		border-width:5px;
+		padding: 20px 70px 20px 70px;
+		text-align:center;
+		width:200px;
+		font-family: cursive;
+		}
+	label{
+		font-family: cursive;
+		font-weight: 300;
+		}
+	
+	</style>
+	<form action="erica">
+	<h1>Register</h1>
+		<label for="username">Username:</label>
+		<input type="text" placeholder="Username" id="username"><br>
+		
+		<label for="password">Password:</label>
+		<input type="password" placeholder="Password" id="password"><br>
+		
+		<label>Age:</label>
+		<input type="number"><br>
+		
+		<label for="birthdate">Birthdate:</label>
+		<input type="date" id="birthdate"><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" placeholder="email" id="email"><br>
+		
+		<label for="file">File:</label>
+		<input type="file" id="file"><br>
+		
+		<label for="color">Fav color:</label>
+		<input type="color" id="color"><br>
+		
+		<label>Gender:</label><br>
+		<input type="radio" value="Male" id="male">
+		<label for="male">Male</label>
+		<input type="radio" value="Female" id="female">
+		<label for= "female">Female</label><br>
+		
+		<label>Are you a robot?</label><br>
+		<input type="checkbox" value="Yes" id="yes">
+		<label for="yes">Yes</label><br>
+		<input type="checkbox" value="No" id="no">
+		<label for="no">No</label><br>
+		
+		<label for="volume">Volume:</label>
+		<input type="range"><br>
+		<button>Submit</button>
+		
+	</form>
+</body>
+</html>

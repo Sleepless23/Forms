@@ -1,0 +1,31 @@
+
+h2{
+	margin: 50px 250px;
+	border: solid 2px;
+	font-weight: 1000;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+	font-family: Cursive;
+}
+center{
+	margin: 50px 300px;
+	border: solid 3px;
+	font-weight: 1000;
+	background-color: #9fd3c7;
+	border-radius: 25px;
+	font-family: Cursive;
+
+}
+button{
+	background-color: #9fd3c7;
+	padding: 7px 15px;
+	border-radius: 10px;
+}
+label{
+	color:#393e46;
+}
+h1{
+	color:#393e46;
+}
+
+
